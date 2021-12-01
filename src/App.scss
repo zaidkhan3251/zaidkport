@@ -1,0 +1,57 @@
+$color-bg:#131419;
+$color-shadow: #c7c7c7;
+$color-white: #fff;
+$color-red: #ae1100;
+$ruler: 16px;
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  z-index: -3;
+  background-color: $color-bg;
+  box-sizing: border-box;
+  word-break: break-all;
+  font-family: "Special Elite",cursive !important;
+
+}
+
+body,
+p,
+input,
+select,
+textarea,
+button {
+  font-family: "Montserrat", sans-serif;
+  letter-spacing: -0.2px;
+  font-size: $ruler;
+}
+
+div,
+p {
+  color: $color-shadow;
+  text-shadow: black;
+}
+
+form {
+  padding: $ruler;
+  width: $ruler * 20;
+  margin: 0 auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.container {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+.section-title {
+  font-size: 50px;
+  font-weight: bolder;
+  text-align: center;
+  margin-bottom: 50px;
+}

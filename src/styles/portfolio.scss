@@ -1,0 +1,28 @@
+$color-bg: #efeeee;
+$color-shadow: #b6b4b4;
+$color-white: #fff;
+$color-red: #ae1100;
+$ruler: 16px;
+.portfolio-section {
+  .portfolio-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #131419;
+    height: 500px;
+    width: 100%;
+    
+  
+    
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .portfolio-section {
+    .portfolio-content {
+      .portfolio-info-area {
+        flex-basis: 100%;
+        padding: 10px 20px;
+      }
+    }
+  }
+}
